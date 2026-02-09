@@ -1,0 +1,21 @@
+remote_theme: mmistakes/minimal-mistakes
+title: Your Name
+author:
+  name: "Your Name"
+  avatar: "/assets/images/profile.jpg"
+  bio: "Undergraduate Scholarship Hub"
+  location: "Your Country"
+  links:
+    - label: "Email"
+      url: "mailto:your-email@example.com"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/yourusername"
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
